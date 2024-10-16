@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>SALADY</title>
+    <!-- fullpage.css 연결 -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- 사용자 정의 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js 연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="ask"><a href="#">가맹문의</a></div>
+            <div class="menu_btn">
+                <a href="#">
+                    <div id="nav-icon4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            <!-- 내비게이션(GNB-Global Navigation Bar) -->
+            <div class="gnb">
+                <div class="top_menu">
+                    <div class="search">
+                        <div class="search_input">
+                            <input type="text" placeholder="search" name="search" id="search">
+                        </div>
+                        <div class="search_btn">
+                            <a href="#">
+                                <img src="img/search.png" alt="검색버튼">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <a href="#">KO /</a>
+                        <a href="#">EN</a>
+                    </div>
+                </div>
+                <nav>
+                   <ul>
+                        <li><a href="#">브랜드</a>
+                        </li>
+                        <li><a href="#">메뉴</a>
+                            <ul class="sub">
+                                <li><a href="#">웜볼</a></li>
+                                <li><a href="#">샐러디</a></li>
+                                <li><a href="#">샌드</a></li>
+                                <li><a href="#">랩</a></li>
+                                <li><a href="#">웜랩</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">영양정보</a>
+                        </li>
+                        <li><a href="#">매장</a>
+                        </li>
+                        <li><a href="#">프랜차이즈</a>
+                            <ul class="sub">
+                                <li><a href="#">가맹안내</a></li>
+                                <li><a href="#">가맹상담 신청</a></li>
+                                <li><a href="#">가맹설명회 신청</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">새소식</a>
+                            <ul class="sub">
+                                <li><a href="#">이벤트 프로모션</a></li>
+                                <li><a href="#">뉴스 공지사항</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">문의</a>
+                            <ul class="sub">
+                                <li><a href="#">자주하는 질문</a></li>
+                            </ul>
+                        </li>
+                   </ul> 
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section s1">
+            <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide main1">
+                    <div class="line"></div>
+                    <h1>SALADY</h1>
+                    <p>Eat Berrer.<br>Be Berrer.<br><br>Tastes Besser.</p>
+                </div>
+                <div class="swiper-slide main2">
+                    <div class="line"></div>
+                    <h1>SAND</h1>
+                    <p>치킨토마토, 에그 베이컨,<br>
+                        샬롯 연어으로 식단조절을<br>
+                        하는 분들에게 추천합니다.</p>
+                </div>
+                <div class="swiper-slide main3">
+                    <div class="line"></div>
+                    <h1>Warm Wrap</h1>
+                    <p>또띠아로 맛있고 간편한<br>
+                        랩/웜랩과 고소한<br>
+                        귀리번이 매력적인 샌드</p>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="section s2">
+            <button>INFORMATION</button>
+            <h2>NUTRITION</h2>
+            <p>영양학적인 고려하에 메뉴를 구성하며, 건강에 도움이 될 것입니다.</p>
+            <!-- 숫자 올라가는 애니메이션 -->
+            <div class="addNumber">
+                <span></span>
+            </div>
+            <i>샐러디 누적 판매량</i>
+
+            <div class="egg_logo">
+                <img src="img/salade.png" alt="에그로고">
+            </div>
+        </section>
+        <section class="section s3">
+            <h2>샐러디 요리,<br>영향의 균형, 더하기, 빼기.</h2>
+            <button>가이드라인 보기</button>
+            <i>※매장별로 판매 메뉴는 상이할 수 있습니다.</i>
+            <div class="s3_box">
+                <div class="menu_icon">
+                    <img src="img/sandwich.png" alt="샌드위치 로고">
+                </div>
+            </div>
+        </section>
+        <section class="section s4">
+            <div class="line"></div>
+            <h2>NUTRITION</h2>
+            <h3>NUTRITION<br>NUTRITION</h3>
+            <div class="s4_box">
+                <div class="s4_left">
+                    <a href="#">
+                        <div class="s4_left_ani">
+                            <img src="img/4-1.png" alt="카카오">
+                        </div>
+                    </a>
+                    <p>카카오톡<span>선물하기</span></p>
+                </div>
+                <div class="s4_right">
+                    <a href="#">
+                        <div class="s4_right_ani">
+                            <img src="img/4-2.png" alt="배달">
+                        </div>
+                    </a>
+                    <p><span>딜리버리</span>매장</p>
+                </div>
+            </div>
+        </section>
+        <section class="section s5">
+            <div class="bg"></div>
+            <div>
+                <h2>brand story</h2>
+                <h3>샐러디가 만드는 세상</h3>
+                <p>음식을 통해 사람들의 삶을<br>즐겁고 건강하게 만든다</p>
+                <div class="line"></div>
+                <div class="s5_icon">
+                    <img src="img/heart_icon.png" alt="heart_icon">
+                </div>
+            </div>
+        </section>
+        <section class="section s6">
+            <h2>SALADY</h2>
+            <h3>SNS</h3>
+            <div class="s6_box">
+                <ul>
+                    <li class="sns1">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/youtube2.png" alt="유튜브">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns2">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/instagram2.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns3">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/blog2.png" alt="블로그">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns4">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/instagram2.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns5">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/blog2.png" alt="블로그">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns6">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/blog2.png" alt="블로그">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns7">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/instagram2.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns8">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/youtube2.png" alt="유튜브">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns9">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/instagram2.png" alt="인스타글램">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><img src="img/youtube.png" alt="youtybe"></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="img/blog.png" alt="blog"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s7">
+            <div class="event">
+                <button>event</button>
+                <h3>신규 앱 등급 업그레이드 이벤트<br>
+                    (*기존 앱 회원 대상)</h3>
+                <span>~2022.05.16</span>
+            </div>
+            <div class="new">
+                <button>new</button>
+                <h3>샐러디에 나쵸칩이 들어간<br>
+                    메뉴가 있다?!</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/right.png" alt="화살표"></a>
+                </div>
+            </div>
+            <div class="news">
+                <button>news</button>
+                <h3>[샐러디 가격 인상 안내]</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/right.png" alt="화살표"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="info">
+                <ul>
+                    <li><a href="#">고객의소리</a></li>
+                    <li><a href="#">마일리지조회</a></li>
+                    <li><a href="#">상품권구매</a></li>
+                    <li><a href="#">인트라넷</a></li>
+                </ul>
+            </div>
+            <address>
+                가맹문의 대표번호: 1899-3523(연결1번)<br>
+                직통번호:031-780-1500 | 이메일: help@phomein.com
+            </address>
+            <p>COPYRIGHTⓒ DAILYKING INC. ALL RIGHT RESERVED.</p>
+        </footer>
+    </div>
+</body>
+</html>
